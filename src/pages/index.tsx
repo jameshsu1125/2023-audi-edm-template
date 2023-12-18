@@ -46,11 +46,11 @@ const App = () => {
     <div className='App'>
       <Context.Provider {...{ value }}>
         <div className='navbar bg-base-100 z-40'>
-          <div className='flex-1'>
+          <div className='flex-1 hidden lg:block'>
             <a className='btn btn-ghost text-xl'>AUDI / VOLKSWAGEN EMAIL TEMPLATES</a>
           </div>
           <div className='flex-none'>
-            <ul className='menu menu-horizontal px-1'>
+            <ul className='menu menu-horizontal z-50 px-1'>
               <li>
                 <a href='https://jameshsu1125.github.io/2022-audi-edm-template/' target='_blank'>
                   Last Version
