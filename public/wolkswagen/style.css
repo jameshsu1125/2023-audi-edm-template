@@ -13,7 +13,7 @@ table img {
 }
 
 .content td {
-  padding: 16px 32px;
+  padding: 16px 24px;
 }
 
 .header td {
@@ -55,7 +55,8 @@ p {
   padding: 0;
 }
 
-.header img {
+.header img,
+.footer img {
   width: 640px;
 }
 
@@ -113,7 +114,7 @@ p {
 }
 
 .content .contact td {
-  padding: 10px 32px;
+  padding: 10px 24px;
   line-height: 30px;
 }
 
@@ -122,82 +123,20 @@ p {
 }
 
 .footer {
-  background: #363636;
+  background: #335f7c;
   color: #fff;
   text-align: center;
 }
 
-.footer td {
-  padding: 10px 140px;
-}
-
 .footer td table {
-  margin: 10px 0 20px;
-  width: 100%;
+  margin: 20px 0;
+  background: #335f7c;
   color: #fff;
 }
 
 .footer table tr td {
   padding: 0;
+  background: #335f7c;
   color: #fff;
   text-align: center;
-}
-
-.footer table table {
-  width: 100%;
-}
-
-.footer svg {
-  width: 30px;
-  height: 30px;
-}
-
-.footer .fb {
-  width: 30px;
-  height: 30px;
-  border: 1px solid #ccc;
-  border-radius: 100%;
-  background: url('https://edm.audi-service.com.tw/2023/audi/fb.png') no-repeat center center / 60%;
-  cursor: pointer;
-}
-
-.footer .ig {
-  width: 30px;
-  height: 30px;
-  border: 1px solid #ccc;
-  border-radius: 100%;
-  background: url('https://edm.audi-service.com.tw/2023/audi/ig.png') no-repeat center center / 60%;
-  cursor: pointer;
-}
-
-.footer .yt {
-  width: 30px;
-  height: 30px;
-  border: 1px solid #ccc;
-  border-radius: 100%;
-  background: url('https://edm.audi-service.com.tw/2023/audi/yt.png') no-repeat center center / 60%;
-  cursor: pointer;
-}
-
-.footer .in {
-  width: 30px;
-  height: 30px;
-  border: 1px solid #ccc;
-  border-radius: 100%;
-  background: url('https://edm.audi-service.com.tw/2023/audi/in.png') no-repeat center center / 60%;
-  cursor: pointer;
-}
-
-.footer .subscribe {
-  padding: 5px 40px;
-}
-
-.mediaCenter {
-  margin: 30px 0 50px;
-  padding: 10px 80px;
-  border: none;
-  background-color: #363636;
-  color: #fff;
-  font-size: 20px;
-  cursor: pointer;
 }

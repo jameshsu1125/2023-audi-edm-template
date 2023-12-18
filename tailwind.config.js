@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 import color from 'tailwindcss/colors';
 import { fontSize } from 'tailwindcss/defaultTheme';
@@ -10,20 +11,14 @@ delete color.blueGray;
 
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  daisyui: {
+    themes: ['nord'],
+  },
   theme: {
     fontSize: {
       ...fontSize,
     },
-    colors: {
-      ...color,
-      primary: '#870000',
-      secondary: '#ff6600',
-      tertiary: '#ff0066',
-      quaternary: '#00ff00',
-      backgroundColor: '#111',
-      textColor: '#eee',
-    },
     extend: {},
   },
-  plugins: [],
+  plugins: [require('daisyui'), 'prettier-plugin-tailwindcss'],
 };
