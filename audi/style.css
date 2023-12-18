@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  color: #63686b;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+table img {
+  display: block;
+}
+
+.content td {
+  padding: 16px 32px;
+}
+
+.header td {
+  padding: 0;
+}
+
+.footer td {
+  padding: 0;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 31.2px;
+}
+
+h3 {
+  color: #888888;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+p {
+  text-align: justify;
+}
+
+.container {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 640px;
+  width: 100%;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  font-family: 'Microsoft JhengHei', '微軟正黑體', Arial, Helvetica, sans-serif;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+}
+
+.header img {
+  width: 640px;
+}
+
+.header div img {
+  margin: 0;
+}
+
+.content a {
+  color: #002733;
+}
+
+.download {
+  margin: 30px 0;
+}
+
+.download td {
+  padding: 0;
+  white-space: nowrap;
+}
+
+.download img {
+  display: inline-block;
+  margin: 0 5px;
+  width: 32px;
+  vertical-align: middle;
+}
+
+.cfa {
+  margin: 30px 0;
+}
+
+.cfa .button {
+  padding: 12px;
+  background-color: #002733;
+  text-align: center;
+}
+
+.cfa .button div {
+  color: #335f7c;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.cfa .button a {
+  background-color: #c7dee7;
+  color: #335f7c;
+  text-decoration: none;
+}
+
+.cfa .button a:visited {
+  color: #335f7c;
+  text-decoration: none;
+}
+
+.content .contact td {
+  padding: 10px 32px;
+  line-height: 30px;
+}
+
+.content .contact tr:first-child td {
+  text-indent: -9px;
+}
+
+.footer {
+  background: #363636;
+  color: #fff;
+  text-align: center;
+}
+
+.footer td {
+  padding: 10px 140px;
+}
+
+.footer td table {
+  margin: 10px 0 20px;
+  width: 100%;
+  color: #fff;
+}
+
+.footer table tr td {
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.footer table table {
+  width: 100%;
+}
+
+.footer svg {
+  width: 30px;
+  height: 30px;
+}
+
+.footer .fb {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+  background: url('https://edm.audi-service.com.tw/2023/audi/fb.png') no-repeat center center / 60%;
+  cursor: pointer;
+}
+
+.footer .ig {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+  background: url('https://edm.audi-service.com.tw/2023/audi/ig.png') no-repeat center center / 60%;
+  cursor: pointer;
+}
+
+.footer .yt {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+  background: url('https://edm.audi-service.com.tw/2023/audi/yt.png') no-repeat center center / 60%;
+  cursor: pointer;
+}
+
+.footer .in {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+  background: url('https://edm.audi-service.com.tw/2023/audi/in.png') no-repeat center center / 60%;
+  cursor: pointer;
+}
+
+.footer .subscribe {
+  padding: 5px 40px;
+}
+
+.mediaCenter {
+  margin: 30px 0 50px;
+  padding: 10px 80px;
+  border: none;
+  background-color: #363636;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
