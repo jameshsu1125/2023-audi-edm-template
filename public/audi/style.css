@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  color: #63686b;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+table img {
+  display: block;
+}
+
+.content td {
+  padding: 16px 24px;
+}
+
+.header td {
+  padding: 0;
+}
+
+.footer td {
+  padding: 0;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 31.2px;
+}
+
+h3 {
+  color: #888888;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+p {
+  text-align: justify;
+}
+
+.container {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 640px;
+  width: 100%;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  font-family: 'Microsoft JhengHei', '微軟正黑體', Arial, Helvetica, sans-serif;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+}
+
+.header img,
+.footer img {
+  width: 640px;
+}
+
+.header div img {
+  margin: 0;
+}
+
+.content a {
+  color: #8ebfce;
+}
+
+.download {
+  margin: 30px 0;
+}
+
+.download td {
+  padding: 0;
+  white-space: nowrap;
+}
+
+.download img {
+  display: inline-block;
+  margin: 0 5px;
+  width: 32px;
+  vertical-align: middle;
+}
+
+.cfa {
+  margin: 30px 0;
+}
+
+.cfa .button {
+  padding: 12px;
+  background-color: #c7dee7;
+  text-align: center;
+}
+
+.cfa .button div {
+  color: #335f7c;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.cfa .button a {
+  background-color: #c7dee7;
+  color: #335f7c;
+  text-decoration: none;
+}
+
+.cfa .button a:visited {
+  color: #335f7c;
+  text-decoration: none;
+}
+
+.content .contact td {
+  padding: 10px 24px;
+  line-height: 30px;
+}
+
+.content .contact tr:first-child td {
+  text-indent: -9px;
+}
+
+.footer {
+  background: #335f7c;
+  color: #fff;
+  text-align: center;
+}
+
+.footer td table {
+  margin: 20px 0;
+  background: #335f7c;
+  color: #fff;
+}
+
+.footer table tr td {
+  padding: 0;
+  background: #335f7c;
+  color: #fff;
+  text-align: center;
+}
